@@ -1,5 +1,5 @@
 
-const apiKey = "10fd73515ec864d26e245c7068af88d9";
+const apiKey = "Api key Here";
 const APIURL =
     `https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=en-US&page=1`;
 // `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${apiKey}&page=1`;
