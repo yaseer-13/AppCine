@@ -34,7 +34,7 @@ header {
 .search {
     background-color: transparent;
     border-radius: 50px;
-    border: 2px solid var(primaryColor);
+    border: 2px solid var(--primaryColor);
     padding: 0.5rem 1rem;
     font-family: inherit;
     color: #ffff;
