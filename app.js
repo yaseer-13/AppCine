@@ -1,5 +1,5 @@
 
-const apiKey = "Api key Here";
+const apiKey = "Api key here";
 const APIURL =
     `https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=en-US&page=1`;
 // `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${apiKey}&page=1`;
@@ -46,7 +46,7 @@ function showMovies(movies) {
         </div>
         <div class="overview">
             <h3 class="ori_title">${original_title}</h3>
-            <p>overview${overview}</p>
+            <p>${overview}</p>
             <h3 class="release">Release Date: ${release_date}</h3>
         </div>
         `;
