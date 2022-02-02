@@ -50,7 +50,7 @@ function showMovies(movies) {
     });
 };
 
-//color coding the raring of the movie
+//color coding the rating of the movie
 function getClassByRate(vote) {
     if (vote > 8) {
         return "green";
